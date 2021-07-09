@@ -1,5 +1,13 @@
 # @backstage/plugin-scaffolder-backend
 
+## 0.13.1
+
+### Patch Changes
+
+- 31de5f27f: Add new `fetch:template` action which handles the same responsibilities as `fetch:cookiecutter` without the external dependency on `cookiecutter`. For information on migrating from `fetch:cookiecutter` to `fetch:template`, see the [migration guide](https://backstage.io/docs/features/software-templates/builtin-actions#migrating-from-fetch-cookiecutter-to-fetch-template) in the docs.
+- Updated dependencies
+  - @backstage/backend-common@0.8.6
+
 ## 0.13.0
 
 ### Minor Changes
